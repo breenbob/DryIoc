@@ -12,6 +12,7 @@ namespace LoadTest
         {
             var container = new Container(rules => rules
                 .WithoutInterpretationForTheFirstResolution()
+                .WithoutFastExpressionCompiler()
                 .WithoutUseInterpretation()
                 .With(FactoryMethod.ConstructorWithResolvableArguments))
                 .WithWebApi(new HttpConfiguration());
