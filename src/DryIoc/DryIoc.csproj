@@ -4,7 +4,7 @@
 
         <Product>DryIoc</Product>
         <VersionPrefix>5.1.0</VersionPrefix>
-        <VersionSuffix></VersionSuffix>
+        <VersionSuffix>civica</VersionSuffix>
 
         <AssemblyName>$(Product)</AssemblyName>
         <AssemblyTitle>$(AssemblyName) $(TargetFramework)</AssemblyTitle>
